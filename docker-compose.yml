@@ -1,0 +1,7 @@
+app:
+    build: .
+    env_file:
+        - .env
+    command: /usr/local/bin/garpy download --username $USERNAME --password $PASSWORD /usr/src/app/output/
+    volumes:
+        - data:/usr/src/app/output
