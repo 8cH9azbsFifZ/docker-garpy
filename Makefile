@@ -1,4 +1,5 @@
-VER=0.3
+VER=0.3.1
+
 build:
 	docker build . -t garpy:${VER} -t asdlfkj31h/garpy:${VER} -t asdlfkj31h/garpy:latest
 
